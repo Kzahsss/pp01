@@ -74,6 +74,6 @@
         android:layout_height="252dp"
         android:layout_gravity="center"
         android:layout_marginTop="80dp"
-        android:background="@mipmap/qqq"
+        android:background="@mipmap/qqq"/>
 
 </LinearLayout>

@@ -63,7 +63,7 @@
             android:layout_height="43dp"
             android:layout_gravity="center"
             android:background="@drawable/zakryglenie"
-            android:text="example@gmail.ru"
+            android:text=" example@gmail.ru"
             android:textColor="@color/grey" />
 
         <Button
@@ -80,4 +80,29 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_marginTop="250dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="410dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Или войдите  спомощью"
+            android:textColor="@color/grey"
+            android:textSize="16dp" />
+
+        <Button
+            android:layout_width="348dp"
+            android:layout_height="71dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:text="Войти с Яндекс"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:backgroundTint="@color/white"/>
+
+    </LinearLayout>
+
 </LinearLayout>

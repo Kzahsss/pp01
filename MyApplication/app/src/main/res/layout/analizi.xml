@@ -74,6 +74,6 @@
         android:layout_height="202dp"
         android:layout_gravity="center"
         android:background="@mipmap/Illustration"
-        android:layout_marginTop="80dp"
+        android:layout_marginTop="80dp"/>
 
 </LinearLayout>

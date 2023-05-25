@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="203dp"
+            android:layout_height="wrap_content"
+
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:text="Создание карты                  пациента"
+            android:textColor="@color/black"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="64dp"
+            android:layout_marginTop="20dp"
+            android:text="Пропустить"
+            android:textColor="@color/boleeblue"
+            android:textSize="18dp"
+            android:textStyle="normal" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Без карты пациента вы не сможете заказать анализы."
+            android:textColor="@color/grey"
+            android:textSize="15dp"
+            android:layout_marginLeft="20dp"
+            android:textStyle="normal"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="В картах пациентов будут храниться результаты анализов вас и ваших близких."
+            android:textColor="@color/grey"
+            android:textSize="15dp"
+            android:layout_marginLeft="20dp"
+            android:textStyle="normal"
+            />
+    </LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:layout_width="370dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:background="@drawable/zakryglenie"
+        android:text=" Имя"
+        android:textColor="@color/grey" />
+
+    <EditText
+        android:layout_width="370dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="25dp"
+        android:layout_gravity="center"
+        android:background="@drawable/zakryglenie"
+        android:text=" Отчество"
+        android:textColor="@color/grey" />
+
+    <EditText
+        android:layout_width="370dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="25dp"
+        android:layout_gravity="center"
+        android:background="@drawable/zakryglenie"
+        android:text=" Фамилия"
+        android:textColor="@color/grey" />
+
+    <EditText
+        android:layout_width="370dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="25dp"
+        android:layout_gravity="center"
+        android:background="@drawable/zakryglenie"
+        android:text=" Дата рождения"
+        android:textColor="@color/grey" />
+
+    <Spinner
+        android:layout_width="370dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="25dp"
+        android:layout_gravity="center"
+        android:background="@drawable/zakryglenie" />
+
+    <Button
+        android:layout_width="372dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="55dp"
+        android:background="@drawable/zakryg"
+        android:backgroundTint="@color/blue"
+        android:gravity="center"
+        android:text="Создать"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+
+</LinearLayout>
+
+
